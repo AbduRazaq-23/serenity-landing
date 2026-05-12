@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Smooth transition */
+html {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
